@@ -6,3 +6,45 @@
   font-family: 'young-serif';
   src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  font-size: 16px;
+}
+
+body{
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+}
+.attribution{
+  display:none;
+}
+main{
+  background-color: white;
+  width: 736px;
+  padding: 40px;
+  border-radius: 24px;
+  
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+h1{
+  font-family: young-serif, Arial;
+  font-weight: 400;
+}
+ul,ol{
+  list-style-position: inside;
+}
+.recipe-preparation-time{
+  padding: 28px;
+  background-color:hsl(330, 100%, 98%);
+
+
+}
