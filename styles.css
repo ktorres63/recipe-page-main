@@ -10,6 +10,9 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: outfit, Arial;
+  font-weight: 400;
+  color: rgb(95, 87, 78);
 }
 p{
   font-size: 16px;
@@ -38,6 +41,13 @@ img{
 h1{
   font-family: young-serif, Arial;
   font-weight: 400;
+  color: rgb(48, 45, 44);
+  margin-top: 40px;
+}
+h2{
+  font-family: young-serif, Arial;
+  font-weight: 400;
+  color:rgb(133, 70, 50);
 }
 ul,ol{
   list-style-position: inside;
