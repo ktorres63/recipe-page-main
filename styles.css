@@ -56,8 +56,16 @@ h3{
 ul{
   list-style-position: inside;
 }
+ol{
+  padding-left: 40px;
+}
+.recipe{
+  display: flex;
+  flex-direction: column;
+  gap:35px;
+}
 
-.recipe-preparation-time{
+.recipe .preparation-time{
   padding: 28px;
   background-color:hsl(330, 100%, 98%);
 }
