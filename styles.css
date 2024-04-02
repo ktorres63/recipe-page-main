@@ -64,6 +64,7 @@ h2 {
   font-family: young-serif, Arial;
   font-weight: 400;
   color: rgb(133, 70, 50);
+  margin-bottom: 24px;
 }
 h3 {
   color: hsl(332, 51%, 32%);
@@ -92,4 +93,10 @@ ol li::marker{
 .recipe .preparation-time {
   padding: 28px;
   background-color: hsl(330, 100%, 98%);
+}
+table{
+  width: 100%;
+}
+td{
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
