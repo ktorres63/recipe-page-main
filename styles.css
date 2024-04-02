@@ -53,12 +53,11 @@ h2{
 h3{
   color: hsl(332, 51%, 32%);
 }
-ul,ol{
+ul{
   list-style-position: inside;
 }
+
 .recipe-preparation-time{
   padding: 28px;
   background-color:hsl(330, 100%, 98%);
-
-
 }
