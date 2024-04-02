@@ -1,71 +1,85 @@
 @font-face {
-  font-family: 'outfit';
-  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-family: "outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'young-serif';
-  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-family: "young-serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
 }
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: outfit, Arial;
   color: rgb(95, 87, 78);
 }
-p{
+p {
   font-size: 16px;
   font-weight: 400;
 }
+html{
+  height: 100vh;
+}
 
-body{
+body {
   background-color: hsl(30, 54%, 90%);
   display: flex;
   justify-content: center;
+  align-items: center;
+  line-height: 150%;
 }
-.attribution{
-  display:none;
+.attribution {
+  display: none;
 }
-main{
+main {
+  margin: 86px 0 86px 0;
   background-color: white;
   width: 736px;
   padding: 40px;
   border-radius: 24px;
-  
 }
-img{
+img {
   width: 100%;
-  
+
   border-radius: 12px;
 }
-h1{
+.recipe .preparation-time ul li::marker{
+  color: hsl(332, 51%, 32%);
+}
+h1 {
+  font-size:40px;
   font-family: young-serif, Arial;
   font-weight: 400;
   color: rgb(48, 45, 44);
   padding-top: 40px;
   margin-bottom: 24px;
 }
-h2{
+h2 {
   font-family: young-serif, Arial;
   font-weight: 400;
-  color:rgb(133, 70, 50);
+  color: rgb(133, 70, 50);
 }
-h3{
+h3 {
   color: hsl(332, 51%, 32%);
 }
-ul{
-  list-style-position: inside;
+li::marker{
+  color: rgb(133, 70, 50);
 }
-ol{
+/* ul {
+  list-style-position: inside;
+} */
+ol {
   padding-left: 40px;
 }
-.recipe{
+.recipe {
   display: flex;
   flex-direction: column;
-  gap:35px;
+  gap: 35px;
 }
 
-.recipe .preparation-time{
+.recipe .preparation-time {
   padding: 28px;
-  background-color:hsl(330, 100%, 98%);
+  background-color: hsl(330, 100%, 98%);
 }
